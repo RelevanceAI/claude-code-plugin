@@ -4,8 +4,18 @@ Build and manage AI agents, tools, and workforces on [Relevance AI](https://rele
 
 ## Install
 
+```bash
+# Add the marketplace (one-time)
+claude plugin marketplace add RelevanceAI/claude-code-plugin
+
+# Install the plugin
+claude plugin install relevance-ai@RelevanceAI-claude-code-plugin
 ```
-/plugin install github:RelevanceAI/claude-code-plugin
+
+Or from inside Claude Code:
+```
+/plugin marketplace add RelevanceAI/claude-code-plugin
+/plugin install relevance-ai@RelevanceAI-claude-code-plugin
 ```
 
 ## What's included
