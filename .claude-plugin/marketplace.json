@@ -1,11 +1,15 @@
 {
-  "name": "RelevanceAI",
+  "name": "relevance-ai-plugins",
   "description": "Official Relevance AI plugins for Claude Code",
+  "owner": {
+    "name": "Relevance AI"
+  },
   "plugins": [
     {
       "name": "relevance-ai",
       "description": "Build and manage AI agents, tools, and workforces on Relevance AI",
-      "path": "."
+      "source": "./.",
+      "version": "1.0.0"
     }
   ]
 }
